@@ -34,7 +34,7 @@ ADD ./agent-2.1.17.jar /orientdb/plugins/
 
 ENV PATH /orientdb/bin:$PATH
 
-VOLUME ["/orientdb/backup", "/orientdb/databases", "/orientdb/config"]
+VOLUME ["/orientdb/backup", "/orientdb/databases"]
 
 WORKDIR /orientdb
 
